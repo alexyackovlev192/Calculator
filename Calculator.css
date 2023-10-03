@@ -4,6 +4,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: rgb(70, 67, 67);
+}
+
+.calculator {
+    padding: 15px;
+    background:#f5f5f5;
 }
 
 .container {
@@ -11,7 +17,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 7px;
     text-align: center; 
-    background:rgb(230, 214, 110)
 }
 
 .block {
@@ -21,17 +26,39 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    border-radius: 7px;
+    border: 1px solid black;
 }
 
 .number {
-    background: rgb(128, 148, 112);
+    background: #28a745;
 }
 
 .operation {
-    background: rgb(98, 98, 123);
+    background: #ffc107;
 }
 
 .result {
-    background: rgb(162, 162, 232);
+    background: #007bff;
+}
+
+.display {
+    height: 60px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 7px;
+    background: #c7bcbc;
+    border: 1px solid black;
+}
+
+.in {
+    border-radius: 7px;
+    padding: 5px;
+    width: 96%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000; 
+    font-size: 16px;
 }
 
