@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 7px;
+    text-align: center; 
+    background:rgb(230, 214, 110)
+}
+
+.block {
+    width: 70px; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.number {
+    background: rgb(128, 148, 112);
+}
+
+.operation {
+    background: rgb(98, 98, 123);
+}
+
+.result {
+    background: rgb(162, 162, 232);
+}
+
