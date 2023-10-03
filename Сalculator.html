@@ -9,41 +9,41 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="display">
-            <input class="in"></input>
+        <div class="display" id="display">
+            <input type="text" class="in" dir="rtl"></input>
         </div>
         <div class="container">
+            <button class="block operation" onclick="procent('%')">%</button>
+            <button class="block operation" onclick="clearInputCE()">CE</button>
+            <button class="block operation" onclick="clearInputC()">C</button>
+            <button class="block operation" onclick="delInput()">⌫</button>
     
-            <div class="block operation">%</div>
-            <div class="block operation">CE</div>
-            <div class="block operation">C</div>
-            <div class="block operation">⌫</div>
+            <button class="block operation" onclick="addToInput('obr')">1/x</button>
+            <button class="block operation" onclick="addToInput('sqr')">x²</button>
+            <button class="block operation" onclick="addToInput('sqrt')">√x</button>
+            <button class="block operation" onclick="division()">÷</button>
     
-            <div class="block operation">1/x</div>
-            <div class="block operation">x²</div>
-            <div class="block operation">√x</div>
-            <div class="block operation">÷</div>
-    
-            <div class="block number">7</div>
-            <div class="block number">8</div>
-            <div class="block number">9</div>
-            <div class="block operation">*</div>
+            <button class="block number" onclick="addToInput('7')">7</button>
+            <button class="block number" onclick="addToInput('8')">8</button>
+            <button class="block number" onclick="addToInput('9')">9</button>
+            <button class="block operation" onclick="multiplication('*')">*</button>
             
-            <div class="block number">4</div>
-            <div class="block number">5</div>
-            <div class="block number">6</div>
-            <div class="block operation">+</div>
+            <button class="block number" onclick="addToInput('4')">4</button>
+            <button class="block number" onclick="addToInput('5')">5</button>
+            <button class="block number" onclick="addToInput('6')">6</button>
+            <button class="block operation" onclick="add('+')">+</button>
     
-            <div class="block number">1</div>
-            <div class="block number">2</div>
-            <div class="block number">3</div>
-            <div class="block operation">-</div>
+            <button class="block number" onclick="addToInput('1')">1</button>
+            <button class="block number" onclick="addToInput('2')">2</button>
+            <button class="block number" onclick="addToInput('3')">3</button>
+            <button class="block operation" onclick="sub('-')">-</button>
             
-            <div class="block operation">±</div>
-            <div class="block number">0</div>
-            <div class="block operation">,</div>
-            <div class="block result">=</div>
+            <button class="block operation" onclick="reverce()">±</button>
+            <button class="block number" onclick="addToInput('0')">0</button>
+            <button class="block operation" onclick="addToInput('.')">,</button>
+            <button class="block result" onclick="calculateResult()">=</button>
         </div>
     </div>
+    <script src="Calculator.js"></script>
 </body>
 </html>

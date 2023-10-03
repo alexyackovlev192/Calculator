@@ -34,12 +34,24 @@ body {
     background: #28a745;
 }
 
+.number:hover {
+    background: #55d172;
+} 
+
 .operation {
     background: #ffc107;
 }
 
+.operation:hover {
+    background: #d6ad33;
+} 
+
 .result {
     background: #007bff;
+}
+
+.result:hover {
+    background: #62a2e6;
 }
 
 .display {
@@ -49,11 +61,12 @@ body {
     border-radius: 7px;
     background: #c7bcbc;
     border: 1px solid black;
+    font-size: 30px;
 }
 
 .in {
     border-radius: 7px;
-    padding: 5px;
+    padding-bottom: 5px;
     width: 96%;
     background: transparent;
     border: none;
