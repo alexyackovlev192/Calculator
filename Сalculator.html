@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="Calculator.css">
-    <title>calculator</title>
+    <title>Calculator</title>
 </head>
 <body>
     <script src="Calculator.js"></script>
@@ -14,7 +14,7 @@
             <input type="text" class="inpt" id="inpt"></input>
         </div>
         <div class="container">
-            <button class="block operation" onclick="clearInputCE()">CE</button>
+            <button class="block operation" disabled onclick="clearInputCE()">CE</button>
             <button class="block operation" onclick="clearInputC()">C</button>
             <button class="block operation" onclick="delInput()">⌫</button>
             <button class="block operation" onclick="operation('/')">÷</button>
@@ -34,7 +34,7 @@
             <button class="block number" onclick="addToInput('3')">3</button>
             <button class="block operation" onclick="operation('-')">-</button>
             
-            <button class="block operation" onclick="reverce()">±</button>
+            <button class="block operation" disabled onclick="reverce()">±</button>
             <button class="block number" onclick="addToInput('0')">0</button>
             <button class="block operation" onclick="addToInput('.')">,</button>
             <button class="block result" onclick="calculateResult()">=</button>

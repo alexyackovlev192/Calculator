@@ -14,7 +14,7 @@ body {
 }
 
 .history {
-    width: 300px;
+    width: 250px;
     height: 350px;
     margin-left: 10px;
     background:#f5f5f5;
@@ -33,7 +33,7 @@ body {
     border: 1px solid black;
     outline: none;
     color: #000; 
-    font-size: 20px;
+    font-size: 25px;
     text-align: right;
     overflow: hidden;
     resize: none;
